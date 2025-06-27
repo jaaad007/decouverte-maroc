@@ -24,9 +24,7 @@ export default function PostPage({ post }) {
         </div>
         <div className={styles.textWrapper}>
           <h1 className={styles.title}>{post.title}</h1>
-          <p className={styles.description}>
-            {post.description.replace(/'/g, '&rsquo;')}
-          </p>
+          <p className={styles.description}>{post.description}</p>
         </div>
       </div>
 
@@ -43,14 +41,14 @@ export default function PostPage({ post }) {
                   className={styles.monumentImage}
                 />
                 <h3>{monument.name}</h3>
-                <p>{monument.description.replace(/'/g, '&rsquo;')}</p>
+                <p>{monument.description}</p>
               </div>
             ))}
           </div>
         </div>
       )}
 
-      <Link href="/" className={styles.link}>← Retour à l'accueil</Link>
+      <Link href="/" className={styles.link}>← Retour à l&apos;accueil</Link>
     </div>
   );
 }
