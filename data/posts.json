@@ -1,0 +1,20 @@
+[
+  {
+    "slug": "fes",
+    "title": "Fès",
+    "description": "Capitale culturelle du Maroc, célèbre pour sa médina historique.",
+    "image": "/images/medina-de-fes-vue-de.jpg"
+  },
+  {
+    "slug": "chefchaouen",
+    "title": "Chefchaouen",
+    "description": "Une ville bleue magnifique nichée dans les montagnes du Rif.",
+    "image": "/images/Chefchaouen.jpg"
+  },
+  {
+    "slug": "marrakech",
+    "title": "Marrakech",
+    "description": "La ville rouge, connue pour sa place Jemaa El-Fna et ses souks.",
+    "image": "/images/Marrakech.jpg"
+  }
+]
