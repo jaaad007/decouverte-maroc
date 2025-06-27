@@ -24,7 +24,9 @@ export default function PostPage({ post }) {
         </div>
         <div className={styles.textWrapper}>
           <h1 className={styles.title}>{post.title}</h1>
-          <p className={styles.description}>{post.description.replace(/'/g, '&rsquo;')}</p>
+          <p className={styles.description}>
+            {post.description.replace(/'/g, '&rsquo;')}
+          </p>
         </div>
       </div>
 

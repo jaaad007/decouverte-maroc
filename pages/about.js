@@ -7,7 +7,7 @@ export default function About() {
       <div className={styles.aboutCard}>
         <h1 className={styles.title}>À propos du blog</h1>
         <p className={styles.text}>
-          Bienvenue sur <strong>Découverte du Maroc</strong> ! Ce blog a été créé dans le cadre d’un projet étudiant pour explorer la richesse culturelle de trois grandes villes marocaines.
+          Bienvenue sur <strong>Découverte du Maroc</strong> ! Ce blog a été créé dans le cadre d&rsquo;un projet étudiant pour explorer la richesse culturelle de trois grandes villes marocaines.
         </p>
         <p className={styles.text}>
           Chaque article présente une ville avec ses monuments emblématiques, accompagnés de photos et de descriptions détaillées. Le projet met en œuvre les compétences en développement web avec <strong>Next.js</strong> : rendu statique, contenu dynamique, et déploiement professionnel sur Vercel.
