@@ -20,7 +20,7 @@ export default function PostPage({ post }) {
       <h1 className={styles.title}>{post.title}</h1>
       <img src={post.image} alt={post.title} className={styles.image} />
       <p className={styles.description}>{post.description}</p>
-      <Link href="/" className={styles.link}>← Retour à l'accueil</Link>
+      <Link href="/" className={styles.link}>← Retour à l&apos;accueil</Link>
     </div>
   );
 }
