@@ -13,7 +13,7 @@ export default function About() {
           Chaque article présente une ville avec ses monuments emblématiques, accompagnés de photos et de descriptions détaillées. Le projet met en œuvre les compétences en développement web avec <strong>Next.js</strong> : rendu statique, contenu dynamique, et déploiement professionnel sur Vercel.
         </p>
         <p className={styles.text}>
-          L’objectif est d’offrir un site informatif, responsive, élégant et bien structuré, conforme aux bonnes pratiques modernes.
+          L&rsquo;objectif est d&rsquo;offrir un site informatif, responsive, élégant et bien structuré, conforme aux bonnes pratiques modernes.
         </p>
         <Link href="/" className={styles.link}>← Retour à l'accueil</Link>
       </div>
