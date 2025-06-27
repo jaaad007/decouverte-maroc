@@ -48,7 +48,7 @@ export default function PostPage({ post }) {
         </div>
       )}
 
-      <Link href="/" className={styles.link}>← Retour à l'accueil</Link>
+      <Link href="/" className={styles.link}>← Retour à l&rsquo;accueil</Link>
     </div>
   );
 }
