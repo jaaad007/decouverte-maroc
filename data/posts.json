@@ -2,19 +2,71 @@
   {
     "slug": "fes",
     "title": "Fès",
-    "description": "Capitale culturelle du Maroc, célèbre pour sa médina historique.",
-    "image": "/images/medina-de-fes-vue-de.jpg"
+    "description": "Fès est l’une des plus anciennes villes impériales du Maroc. Elle est réputée pour sa médina historique classée au patrimoine mondial de l'UNESCO, sa richesse culturelle et ses traditions artisanales. C’est un centre spirituel et culturel incontournable du pays.",
+    "image": "/images/medina-de-fes-vue-de.jpg",
+    "monuments": [
+      {
+        "name": "Médersa Bou Inania",
+        "image": "/images/bouinania.jpg",
+        "description": "La Médersa Bou Inania est une magnifique école coranique fondée au XIVe siècle. Elle est célèbre pour son architecture raffinée, ses boiseries sculptées et ses zelliges traditionnels."
+      },
+      {
+        "name": "Tannerie Chouara",
+        "image": "/images/tannerie.jpg",
+        "description": "La tannerie Chouara est l'une des plus anciennes tanneries du monde. Les artisans y pratiquent encore le tannage du cuir selon des méthodes ancestrales, offrant un spectacle haut en couleurs."
+      },
+      {
+        "name": "Bab Boujloud",
+        "image": "/images/bab-boujloud.jpg",
+        "description": "Bab Boujloud, aussi appelée la porte bleue, est une des principales entrées de la médina de Fès. Elle est célèbre pour ses magnifiques carreaux bleus et verts et son animation constante."
+      }
+    ]
   },
   {
-    "slug": "chefchaouen",
-    "title": "Chefchaouen",
-    "description": "Une ville bleue magnifique nichée dans les montagnes du Rif.",
-    "image": "/images/Chefchaouen.jpg"
-  },
+  "slug": "chefchaouen",
+  "title": "Chefchaouen",
+  "description": "Chefchaouen, surnommée la perle bleue du Maroc, est réputée pour ses ruelles étroites peintes en bleu et son ambiance paisible nichée dans les montagnes du Rif.",
+  "image": "/images/Chefchaouen.jpg",
+  "monuments": [
+    {
+      "name": "La Kasbah",
+      "image": "/images/kasbah-chefchaouen.jpg",
+      "description": "La Kasbah est une ancienne forteresse située au cœur de la médina. Elle abrite aujourd’hui un musée et un jardin andalou paisible."
+    },
+    {
+      "name": "Place Outa el Hammam",
+      "image": "/images/outa-el-hammam.jpg",
+      "description": "Centre animé de la ville, cette place historique est entourée de cafés et offre une vue magnifique sur la mosquée et les montagnes environnantes."
+    },
+    {
+      "name": "Mosquée espagnole",
+      "image": "/images/mosquee-espagnole.jpg",
+      "description": "Située sur une colline surplombant la ville, cette mosquée offre un panorama incroyable sur Chefchaouen, notamment au coucher du soleil."
+    }
+  ]
+},
   {
-    "slug": "marrakech",
-    "title": "Marrakech",
-    "description": "La ville rouge, connue pour sa place Jemaa El-Fna et ses souks.",
-    "image": "/images/Marrakech.jpg"
-  }
+  "slug": "marrakech",
+  "title": "Marrakech",
+  "description": "Marrakech, surnommée la ville rouge, est un joyau culturel du Maroc, célèbre pour ses souks animés, ses palais majestueux et ses jardins enchanteurs.",
+  "image": "/images/Marrakech.jpg",
+  "monuments": [
+    {
+      "name": "Place Jemaa el-Fna",
+      "image": "/images/Place Jemaa el-Fna.jpg",
+      "description": "Cœur vibrant de Marrakech, cette place est un théâtre vivant où se croisent charmeurs de serpents, musiciens, et vendeurs ambulants."
+    },
+    {
+      "name": "Palais de la Bahia",
+      "image": "/images/palais-bahia.jpg",
+      "description": "Chef-d'œuvre de l'architecture marocaine, ce palais du XIXᵉ siècle impressionne par ses patios fleuris, ses boiseries sculptées et ses mosaïques raffinées."
+    },
+    {
+      "name": "Jardin Majorelle",
+      "image": "/images/jardin-majorelle.jpg",
+      "description": "Créé par le peintre Jacques Majorelle, ce jardin luxuriant aux couleurs vives est un havre de paix abritant cactus, bambous et fontaines, racheté par Yves Saint Laurent."
+    }
+  ]
+}
+
 ]

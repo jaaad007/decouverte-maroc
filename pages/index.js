@@ -5,9 +5,18 @@ import posts from '../data/posts.json';
 export default function Home() {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Découverte du Maroc</h1>
-      <p className={styles.subtitle}>Explorez 3 villes marocaines emblématiques.</p>
+      {/* Hero section */}
+      <section className={styles.hero}>
+        <div className={styles.heroText}>
+          <h1 className={styles.title}>Découverte du Maroc</h1>
+          <p className={styles.subtitle}>Plongez dans les trésors culturels de trois villes marocaines incontournables.</p>
+        </div>
+        <div className={styles.heroImageWrapper}>
+          <img src="/images/maroc-hero.jpg" alt="Maroc" className={styles.heroImage} />
+        </div>
+      </section>
 
+      {/* Liste des villes */}
       <div className={styles.grid}>
         {posts.map((post) => (
           <div key={post.slug} className={styles.card}>
@@ -19,7 +28,8 @@ export default function Home() {
         ))}
       </div>
 
-      <div>
+      {/* Lien vers la page à propos */}
+      <div className={styles.aboutLinkWrapper}>
         <Link href="/about" className={styles.linkAbout}>À propos du blog →</Link>
       </div>
     </div>

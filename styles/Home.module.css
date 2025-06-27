@@ -8,22 +8,53 @@
   min-height: 100vh;
 }
 
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #272727;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 3rem;
+  gap: 2rem;
+}
+
+.heroText {
+  flex: 1;
+  min-width: 280px;
+}
+
+.heroImageWrapper {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.heroImage {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.4);
+}
+
 .title {
-  font-size: 2.5rem;
+  font-size: 2.7rem;
   margin-bottom: 0.5rem;
   color: #ffffff;
 }
 
 .subtitle {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   color: #cccccc;
 }
 
+/* Cards Grid */
 .grid {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
-  margin-top: 2rem;
   justify-content: center;
 }
 
@@ -75,4 +106,8 @@
   margin-top: 2rem;
   color: #4ea1f3;
   text-decoration: underline;
+}
+.aboutLinkWrapper {
+  margin-top: 4rem;
+  text-align: center;
 }
